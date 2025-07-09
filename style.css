@@ -1,0 +1,48 @@
+.header{
+    display:flex;
+    background-color:white;
+    
+}
+.menuitems{
+    display:flex;
+    gap:1.5rem;
+    padding-left:550px;
+    margin-top:10px;
+}
+
+.item:hover{
+    background-color:grey;
+}
+.tab-active{
+    display:flex;
+    gap:1.5rem;
+
+}
+.bookings-list{
+    margin-left:650px;
+}
+.booking-form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.form-group.location input {
+  border: none;
+  background: transparent;
+  padding: 8px;
+  width: 140px;
+
+}
+
+
+

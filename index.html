@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhibus-website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--navigation section-->
+    <nav class="header">
+  
+       <img src="./assests/images/logo.png" alt="abhibus logo" width="250px" height="50px">
+         <div class="menuitems">
+        <div class="item">
+            <i class="fa-solid fa-percent" style="color: #686c73;"></i>
+            <a href="#">Offers</a>
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-ticket " style="color: #6f747b;"></i>
+            <a href="#">Track Ticket</a>
+        </div>
+        <div  class="item">
+            <i class="fa-solid fa-headset " style="color: #898b90;"></i>
+            <a href="#">Need Help?</a>
+        </div>
+        <div  class="item">
+            <i class="fa-solid fa-user" style="color: #82868c;"></i>
+            <a href="#">Login/SignUp</a>
+        </div>
+      
+    </div>
+    </nav>
+    <div class="bus">
+    <img src="./assests/images/bus.jpg" alt="bus" width="100%" height="450px">
+    </div>
+    <section class="booking-container">
+        <div class="tab-active">
+        <div class="tab">
+            <i class="fa-solid fa-bus" style="color: #a02f13;"></i>
+            <span>Buses</span>
+        </div>
+        <div class="tab">
+            <i class="fa-solid fa-plane" style="color: #b92c13;"></i>
+            <span>Flights</span>
+        </div>
+        <div class="tab">
+            <i class="fa-solid fa-train-subway" style="color: #c0300c;"></i>
+            <span>Trains</span>
+        </div>
+        <div class="tab">
+            <i class="fa-solid fa-hotel" style="color: #a81515;"></i>
+            <span>Hotels</span>
+        </div>
+        <div class="bookings-list">Book Buses, Trains, Flights, & Hotels</div>
+        </div>
+        <div class="booking-form">
+            <div class="form-group location">
+                <i class="fa-solid fa-location-arrow" style="color: #969aa2;"></i>
+                <input type="text" placeholder="Leaving From">
+                <i class="fa-solid fa-location-dot" style="color: #999fa8;"></i>    
+                <input type="text" placeholder="Going To">
+            </div>
+            <div class="form-group date">
+                <label>Departure</label>
+                <input type="date" value="2025-07-08">
+            </div>
+            <div class="form-group quick-options">
+                <button class="option">Today</button>
+                <button class="option">Tomorrow</button>
+            </div>
+            <div class="form-group search">
+                <button class="search-btn">Search</button>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
